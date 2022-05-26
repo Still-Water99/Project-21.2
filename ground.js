@@ -14,7 +14,7 @@ class Ground {
         var pos = this.body.position;
         push();
         rectMode(CENTER);
-        stroke(255);
+        stroke(127);
         fill(127);
         rect(pos.x, pos.y, this.w + 40, this.h + 40); //for some reason there was a differnce in the hitbox and the sprite
         pop();
